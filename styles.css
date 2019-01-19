@@ -1,0 +1,64 @@
+body {
+  background-color: #80ac7b !important;
+  color: #fff !important;
+  font-family: 'Righteous', cursive !important;
+}
+
+h1 {
+  padding: 3% 0;
+  font-size: 4rem !important;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  padding-bottom: 3%;
+  border-radius: 50%;
+}
+
+button {
+  width: 40%;
+  font-size: 2rem !important;
+}
+
+footer {
+  padding-top: 2%;
+  text-align: center;
+  color: #373331 !important;
+}
+
+@include media-breakpoint-up(sm) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  button {
+    font-size: 2rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  button {
+    font-size: 2.5rem;
+  }
+}
