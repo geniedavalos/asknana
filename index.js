@@ -12,11 +12,11 @@ function answerNana() {
 
 function nanaAnswered() {
   if (randomImageSource === "images/answer1.jpg") {
-    document.getElementById("output").innerHTML = "Nah! Not Today, Human!"; //answer #1
+    document.getElementById("output").innerHTML = "Reply Hay-zy, Try again!"; //answer #1
   } else if (randomImageSource === "images/answer2.jpg") {
-    document.getElementById("output").innerHTML = "Yes! Eat it Today, Human!"; //answer #2
+    document.getElementById("output").innerHTML = "Wheek-out a doubt!"; //answer #2
   } else {
     alert("Error occured. Try again!");
   }
-
+  document.getElementById("input").value = "";
 }
